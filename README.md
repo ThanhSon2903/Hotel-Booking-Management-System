@@ -28,3 +28,9 @@ Built with Spring Boot (Backend), MySQL (Database), React.js (Frontend), AWS S3 
   + Real-time updates via WebSocket
   + Online Payment (PayPal) for booking confirmation
   + User Authentication (Register / Login / Logout)
+
+🐳 Deloyment
+  + Backend: Deploy trên AWS EC2
+  + Frontend: Deploy trên Vercel
+  + Database: Container hoá bằng Docker để dễ dàng chạy trên mọi môi trường
+
