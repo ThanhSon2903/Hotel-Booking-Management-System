@@ -23,9 +23,9 @@ const HomePage = () => {
                     <div className="overlay"></div>
                     <div className="animated-texts overlay-content">
                         <h1>
-                            Welcome to <span className="phegon-color">Phegon Hotel</span>
+                            Welcome to <span className="phegon-color">Bitcoin Hotel</span>
                         </h1><br />
-                        <h3>Step into a haven of comfort and care</h3>
+                        <h3> Live Oriental Heritage</h3>
                     </div>
                 </header>
             </section>
@@ -36,7 +36,7 @@ const HomePage = () => {
 
             <h4><a className="view-rooms-home" href="/rooms">All Rooms</a></h4>
 
-            <h2 className="home-services">Services at <span className="phegon-color">Phegon Hotel</span></h2>
+            <h2 className="home-services">Services at <span className="phegon-color">Bitcoin Hotel</span></h2>
 
             {/* SERVICES SECTION */}
             <section className="service-section"><div className="service-card">
@@ -69,10 +69,10 @@ const HomePage = () => {
                 </div>
 
             </section>
-            {/* AVAILABLE ROOMS SECTION */}
+{/*             
             <section>
 
-            </section>
+            </section> */}
         </div>
     );
 }

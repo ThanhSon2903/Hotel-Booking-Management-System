@@ -1,11 +1,14 @@
 * {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #666;
-    /* box-sizing: border-box; */
-    overflow-x: hidden;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #666;
+  /* box-sizing: border-box; */
 }
 
+html, body {
+  overflow-x: hidden; /* chỉ ẩn cuộn ngang cho trang */
+  height: 100%;
+}
 
 .colors {
     color: pink;
@@ -31,10 +34,18 @@
 }
 
 .navbar-brand a {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
-    color: #007F86;
+    color: #00ADB5;
     text-decoration: none;
+    letter-spacing: 1px;
+    /* text-transform: uppercase;  */
+    transition: all 0.3s ease;
+}
+
+.navbar-brand a:hover {
+    color: #007F86;                       
+    transform: scale(1.05);              
 }
 
 .navbar-ul {
@@ -53,16 +64,23 @@
 .navbar-ul li a {
     text-decoration: none;
     color: #666;
-    transition: color 0.5s;
+    padding: 4px -10px;  
+    transition: all 0.3s ease;  
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .navbar-ul li a:hover {
-    color: #FF007F;
-    color: #FF7F50;
+    color: #fff; 
+    background-color:  gray;
+    transform: translateY(-2px); 
 }
 
 .navbar-ul li a.active {
-    color: #FF7F50;
+    background-color: black;
+    color: white;
+
 }
 
 .auth-container {
@@ -160,12 +178,14 @@ button[type="submit"]:hover {
     color: #f0e8e8;
     background-color: #444;
     padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     font-weight: 500;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
+
 
 
 

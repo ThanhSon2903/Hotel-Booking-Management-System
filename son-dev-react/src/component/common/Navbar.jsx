@@ -19,7 +19,7 @@ function Navbar(){
     return(
         <nav className="navbar">
             <div className="navbar-brand">
-                <NavLink to = "/home"> Bông Lúa Vàng Hotel </NavLink>
+                <NavLink to = "/home"> Bitcoin Hotel </NavLink>
             </div>
             
             <ul className="navbar-ul">
